@@ -14,4 +14,4 @@ jobs:
         run: echo "hello world! welcome to git hub actions"
 
       - name: "print date"
-        run : echo date
+        run : date
