@@ -15,3 +15,6 @@ jobs:
 
       - name: "print date"
         run : date
+      
+      - name: "print new branch"
+        run: echo "added new branch"
