@@ -5,6 +5,10 @@ on:
     branches:
       - master
       - production
+  pull_request:
+    branches:
+      - master
+      - production
 
 jobs:
   hello_world:
@@ -15,3 +19,6 @@ jobs:
 
       - name: "print date"
         run : date
+      
+      - name: "print new branch"
+        run: echo "added new branch"
